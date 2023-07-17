@@ -1,0 +1,48 @@
+<div class="container py-5">
+    <div class="py-5">
+        <h4>Add Scan</h4>
+    </div>
+    <div>
+        <form>
+            <div class="col-lg-6 col-md-12">
+                <div class="mb-3">
+                    <label for="repository_url" class="form-label">Repository URL</label>
+                    <input name="repository_url" type="text" class="form-control" id="repository_url" aria-describedby="emailHelp">
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                  </div>
+                  <div class="mb-3">
+                    <label for="scan_name" class="form-label">Scan Name</label>
+                    <input name="scan_name" type="text" class="form-control" id="scan_name">
+                  </div>
+                  <div class="mb-3">
+                      <label for="scan_description" class="form-label">Scan Description</label>
+                      <textarea name="scan_description" class="form-control" id="scan_description" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Configure Tools</label>
+                    <div class="form-check">
+                        <input class="form-check-input" name="scan_trufflehog" type="checkbox" value="" id="scan_trufflehog">
+                        <label class="form-check-label" for="scan_trufflehog">Trufflehog</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" name="scan_bandit" type="checkbox" value="" id="scan_bandit">
+                        <label class="form-check-label" for="scan_bandit">Bandit</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" name="scan_sonarqube" type="checkbox" value="" id="scan_sonarqube">
+                        <label class="form-check-label" for="scan_sonarqube">Sonarqube</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" name="scan_kics" type="checkbox" value="" id="scan_kics">
+                        <label class="form-check-label" for="scan_kics">KICS</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" name="scan_semgrep" type="checkbox" value="" id="scan_semgrep">
+                        <label class="form-check-label" for="scan_semgrep">Semgrep</label>
+                      </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+</div>

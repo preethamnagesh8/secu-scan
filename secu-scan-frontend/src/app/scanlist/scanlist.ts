@@ -12,4 +12,5 @@ export interface ScanList {
     scan_dependency_track: boolean;
     scan_start_time: Date;
     scan_end_time: Date;
+    scan_status: string;
   }

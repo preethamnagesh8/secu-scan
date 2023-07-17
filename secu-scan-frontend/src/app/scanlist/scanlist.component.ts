@@ -19,7 +19,8 @@ export class ScanlistComponent {
       scan_kics: false,
       scan_dependency_track: true,
       scan_start_time: new Date("2023-06-30T08:00:00"),
-      scan_end_time: new Date("2023-06-30T10:00:00")
+      scan_end_time: new Date("2023-06-30T10:00:00"),
+      scan_status: 'In Progress'
     },
     {
       scan_id: 2,
@@ -31,7 +32,8 @@ export class ScanlistComponent {
       scan_kics: true,
       scan_dependency_track: false,
       scan_start_time: new Date("2023-06-30T10:00:00"),
-      scan_end_time: new Date("2023-06-30T12:00:00")
+      scan_end_time: new Date("2023-06-30T12:00:00"),
+      scan_status: 'New'
     },
     {
       scan_id: 3,
@@ -43,7 +45,8 @@ export class ScanlistComponent {
       scan_kics: true,
       scan_dependency_track: false,
       scan_start_time: new Date("2023-06-30T10:00:00"),
-      scan_end_time: new Date("2023-06-30T12:00:00")
+      scan_end_time: new Date("2023-06-30T12:00:00"),
+      scan_status: 'Completed'
     }
   ];
   

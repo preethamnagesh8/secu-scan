@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ScanlistComponent } from './scanlist/scanlist.component';
+import { AddscanComponent } from './addscan/addscan.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ScanlistComponent } from './scanlist/scanlist.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ScanlistComponent
+    ScanlistComponent,
+    AddscanComponent
   ],
   imports: [
     BrowserModule,
